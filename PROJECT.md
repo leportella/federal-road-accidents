@@ -107,3 +107,6 @@ The project will be devided as described, based on
 * A `notebooks` folder containing the notebooks on insights and model training
 * A `model` folder containing the final version of the model
 * A `requirements.txt` with software requirements for this project
+
+By the end of the project, I will like to have a model that has a good accuracy 
+on predicting the type of victims, indicating the most dangerous roads and conditions.
