@@ -87,6 +87,22 @@ The features where based both on road and driver's characteristics. The road
 characteristics were similiar to what we found in the datasets of National Road Police.
 The authors found a ~60% accuracy on predicting 
 
+I will try to use the following models:
+    * Logistic Regresssion - to use it as a Baseline model to compare all other
+    * Gaussian Naive Bayes - chose by its high perfomance and we probably won't need to worry with feature interaction
+    * Random Forest Classifier - powerfull, hard to overfit but not so fast with large datas
+
+The baseline model will be contruct first and be used as comparison with the other 
+two models. I intend to use GridSearchCV to define the best hyperparameters for each model.
+
+Since most of features are categorical, I will use the method `get_dummies` of 
+Pandas to treat these features. If the dataset is too large to be processed by 
+my computer, I'll use PCA to reduce dimensionality.
+
+I believe that I will not find outliers, since both the target feature and 
+most features are categorical, thus a outlier treatment won't be necessary. 
+
+
 ### Evaluation metrics 
 
 I intend to use confunsion matrix, as explained 
