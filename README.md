@@ -43,3 +43,11 @@ used:
 * Undersampling: restrict the number of available samples to the same number of the 
 least represented cathegory. 
 * Reducing classes: reduced the smallest class to create only 2 (less unbalanced) classes
+
+
+## Best model
+
+I got a model with accuracy of 0.617, which seems pretty good for a real case with 
+no indications if there could be a model that predicts the accidents. The best 
+model was the Random Forest Classifier with class weigth balanced. The model can be 
+seen in Notebook 02. 
